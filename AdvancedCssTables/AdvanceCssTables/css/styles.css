@@ -48,5 +48,5 @@ nav li a{
 nav li a:hover{
     background-color: darkgray;
     color: darkviolet;
-    border: 6px; double 
+    border: 6px double;
 }
