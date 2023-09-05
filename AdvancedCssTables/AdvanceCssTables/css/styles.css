@@ -42,7 +42,7 @@ nav li a{
     color: darkorchid;
     text-decoration: none;
     border: 8px double color(black);
-    border: radius 20px;
+    border-radius: 20px;
     margin:0 10px;
 }
 nav li a:hover{
