@@ -106,5 +106,16 @@ margin: 0 auto;
       padding: 10px;
 
     }
-    
+    aside {
+      width: 30%;
+
+    }
+    .col img {
+      width: 40%;
+
+    }
+    #onepage {
+      width: 100%;
+      
+    }
 }
