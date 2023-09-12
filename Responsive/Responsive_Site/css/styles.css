@@ -1,0 +1,188 @@
+/* Phone Css */
+body{
+    background-color: blueviolet;
+}
+header{
+    background-color: cornsilk;
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px; 
+}
+nav {
+background-color: darkgray;
+text-align: center;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+}
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+
+ }
+ nav li a {
+    background-color: darkslategrey;
+    color: azure;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+ }
+  nav li a:hover {
+    background-color: darkmagenta;
+
+  }
+  main {
+    background-color: darkorchid;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  main h2,
+  main h3 {
+    color: gray;
+    text-shadow: 1px 1px 1px; color: darkgrey;
+    text-align: center;
+  }
+  main img {
+    width: 60%;
+  }
+
+footer{
+    background-color: blueviolet;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+
+}
+.button{
+  display: block;
+  width: 100px;
+  height: 10px;
+  line-height: 10px;
+  background-color: azure;
+  color: darkgray;
+  text-decoration: aqua;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 4px;
+  border-radius: 5px;
+  
+}
+.button:hover {
+
+
+ background-color: rgb(49, 49, 49);
+  border-color: blueviolet;
+}
+
+img {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+/* Tablet Css */
+@media (min-width: 768px) {
+  nav li {
+    display: inline-block;
+    border: 0;
+  }
+  nav li a{
+width: 175px;
+margin: 0 5px;
+border-radius: 10px;
+border: 2px solid gainsboro;
+  }
+main {
+  display: flex;
+
+}
+section,
+aside{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+  border-radius: 10px; 
+
+  }
+  section {
+width: 30%;
+
+.col img {
+  width: 75%;
+
+}
+.button{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*Desktop Css */
+
+@media (min-width: 1024px) {
+    #container {
+      width: 65%;
+      margin: 20px auto;
+
+    }
+  
+  nav li a {
+        background-color: black;
+        color: azure;
+        margin: 20px; 
+
+    }
+    #lower_area{
+      display: flex;
+    }
+    .col {
+      border: 2px solid gray;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      
+
+    }
+    nav {
+      background-color: black;
+      margin: 10px; 
+      padding: 5px;
+
+    }
+    #main_section {
+      display: flex;
+
+    }
+    section,
+    aside{
+      margin: 10px;
+      border: 4px; 
+      border-radius: 10px;
+    }
+    section{
+      width: 70%;
+      padding: 10px;
+
+    }
+    aside {
+      width: 30%;
+
+    }
+    .col img {
+      width: 40%;
+
+    }
+    #onepage {
+      width: 100%;
+      
+    }
+}
