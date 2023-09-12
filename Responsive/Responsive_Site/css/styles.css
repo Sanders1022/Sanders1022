@@ -89,6 +89,13 @@ display: block;
 width: 100%;
 margin: 0 auto;
 }
+table{
+  border: gray;
+  tr,
+  td {
+    border: 4px dotted midnightblue;
+  }
+}
 /* Tablet Css */
 @media (min-width: 768px) {
   nav li {
@@ -113,9 +120,9 @@ aside{
   border-radius: 10px; 
 
   }
-  section {
+section {
 width: 30%;
-
+}
 .col img {
   width: 75%;
 
@@ -123,7 +130,7 @@ width: 30%;
 .button{
   margin-left: auto;
   margin-right: auto;
-
+}
 }
 
 /*Desktop Css */
@@ -149,9 +156,14 @@ width: 30%;
       padding: 10px;
       margin: 10px;
       border-radius: 10px;
-      
+      }
+      .single_page{
+        width: 100%;
 
-    }
+      }
+      section img{
+        width: 75%;
+      }
     nav {
       background-color: black;
       margin: 10px; 
@@ -185,4 +197,4 @@ width: 30%;
       width: 100%;
       
     }
-}
+  }
