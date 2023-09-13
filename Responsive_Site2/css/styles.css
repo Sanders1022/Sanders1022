@@ -45,11 +45,11 @@ border-radius: 10px;
     border-radius: 10px;
 
   }
-  main h2,{
+  main h2,
     text-emphasis
 
 
-  } 
+  
   main h3 {
     color: gray;
     text-shadow: 1px 1px 1px; color: darkgrey;
