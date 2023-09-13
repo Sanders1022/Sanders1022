@@ -1,10 +1,11 @@
 /* Phone Css */
 body{
-    background-color: blueviolet;
+    background-color: rgb(74, 71, 77);
 }
 header{
     background-color: cornsilk;
     padding: 10px;
+    border-color: rgb(12, 11, 11);
 }
 header h1 {
     text-align: center;
@@ -20,18 +21,18 @@ border-radius: 10px;
 }
  nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 
  }
  nav li a {
     background-color: darkslategrey;
-    color: azure;
+    color: plum;
     display: block;
     height: 50px;
     line-height: 50px;
     margin-top: 5px;
     font-size: 20px;
-    text-decoration: none;
+    text-decoration: 20px;
     border-radius: 10px;
  }
   nav li a:hover {
@@ -44,7 +45,11 @@ border-radius: 10px;
     border-radius: 10px;
 
   }
-  main h2,
+  main h2,{
+    text-emphasis
+
+
+  } 
   main h3 {
     color: gray;
     text-shadow: 1px 1px 1px; color: darkgrey;
@@ -64,8 +69,11 @@ footer{
 }
 img {
 display: block;
-width: 100%;
+width: 95%;
 margin: 0 auto;
+}
+aside ul li{
+  display: flex;
 }
 /* Tablet Css */
 @media (min-width: 768px) {
@@ -98,7 +106,7 @@ margin: 0 auto;
     section,
     aside{
       margin: 10px;
-      border: 4px; 
+      border: 4px indigo; 
       border-radius: 10px;
     }
     section{
