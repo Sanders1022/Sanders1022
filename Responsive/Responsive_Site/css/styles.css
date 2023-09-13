@@ -91,11 +91,12 @@ margin: 0 auto;
 }
 table{
   border: gray;
+}
   tr,
   td {
     border: 4px dotted midnightblue;
   }
-}
+
 /* Tablet Css */
 @media (min-width: 768px) {
   nav li {
