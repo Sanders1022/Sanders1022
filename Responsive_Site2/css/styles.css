@@ -48,7 +48,8 @@ border-radius: 10px;
   
   main h3 {
     color: gray;
-    text-shadow: 1px 1px 1px; color: darkgrey;
+    text-shadow: 1px 1px 1px; 
+    color: darkgrey;
     text-align: center;
   }
   main img {
